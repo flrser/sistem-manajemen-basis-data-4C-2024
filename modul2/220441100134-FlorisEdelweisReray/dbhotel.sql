@@ -1,13 +1,13 @@
 CREATE VIEW datatamu AS
 SELECT Id_Tamu, Alamat FROM tamu;
-UPDATE datatamu SET Alamat='Jl. Kenjeran No. 32, Surabaya' WHERE Id_Tamu=2;
+UPDATE datatamu SET Alamat='Jl. Cikini Raya No. 15, Jakarta Pusat' WHERE Id_Tamu=1;
 SELECT * FROM datatamu;
-
 
 CREATE VIEW datatransaksi AS
 SELECT Id_Transaksi, Metode_Pembayaran FROM transaksi;
 UPDATE datatransaksi SET Metode_Pembayaran='Kartu Kredit' WHERE Id_Transaksi=10;
 SELECT * FROM datatransaksi;
+
 
 
 CREATE VIEW data_pemesanan AS
